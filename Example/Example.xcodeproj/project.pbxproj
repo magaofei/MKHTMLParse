@@ -18,6 +18,8 @@
 		2294A1931E703ABE000B18A7 /* MKHTMLParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2294A1921E703ABE000B18A7 /* MKHTMLParse.m */; };
 		2294A1961E703B79000B18A7 /* MKNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2294A1951E703B79000B18A7 /* MKNewsItem.m */; };
 		2294A1991E703D02000B18A7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2294A1981E703D02000B18A7 /* TableViewController.m */; };
+		22F72CBC1E7535C90000261F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F72CBB1E7535C90000261F /* DetailViewController.m */; };
+		22F72CBF1E7545440000261F /* MKDetailHTMLParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F72CBE1E7545440000261F /* MKDetailHTMLParse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		2294A1951E703B79000B18A7 /* MKNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNewsItem.m; sourceTree = "<group>"; };
 		2294A1971E703D02000B18A7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		2294A1981E703D02000B18A7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		22F72CBA1E7535C90000261F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Example/DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		22F72CBB1E7535C90000261F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Example/DetailViewController.m; sourceTree = SOURCE_ROOT; };
+		22F72CBD1E7545440000261F /* MKDetailHTMLParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDetailHTMLParse.h; sourceTree = "<group>"; };
+		22F72CBE1E7545440000261F /* MKDetailHTMLParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDetailHTMLParse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,16 @@
 				2294A1641E703586000B18A7 /* AppDelegate.m */,
 				2294A1971E703D02000B18A7 /* TableViewController.h */,
 				2294A1981E703D02000B18A7 /* TableViewController.m */,
+				22F72CBA1E7535C90000261F /* DetailViewController.h */,
+				22F72CBB1E7535C90000261F /* DetailViewController.m */,
 				2294A16C1E703586000B18A7 /* Assets.xcassets */,
 				2294A16E1E703586000B18A7 /* LaunchScreen.storyboard */,
 				2294A1711E703586000B18A7 /* Info.plist */,
 				2294A1601E703586000B18A7 /* Supporting Files */,
 				2294A1911E703ABE000B18A7 /* MKHTMLParse.h */,
 				2294A1921E703ABE000B18A7 /* MKHTMLParse.m */,
+				22F72CBD1E7545440000261F /* MKDetailHTMLParse.h */,
+				22F72CBE1E7545440000261F /* MKDetailHTMLParse.m */,
 				2294A1941E703B79000B18A7 /* MKNewsItem.h */,
 				2294A1951E703B79000B18A7 /* MKNewsItem.m */,
 			);
@@ -195,8 +205,10 @@
 			files = (
 				2294A1931E703ABE000B18A7 /* MKHTMLParse.m in Sources */,
 				2294A1651E703586000B18A7 /* AppDelegate.m in Sources */,
+				22F72CBC1E7535C90000261F /* DetailViewController.m in Sources */,
 				2294A1961E703B79000B18A7 /* MKNewsItem.m in Sources */,
 				2294A1991E703D02000B18A7 /* TableViewController.m in Sources */,
+				22F72CBF1E7545440000261F /* MKDetailHTMLParse.m in Sources */,
 				2294A1621E703586000B18A7 /* main.m in Sources */,
 				2294A1881E703958000B18A7 /* TFHpple.m in Sources */,
 				2294A18A1E703958000B18A7 /* XPathQuery.m in Sources */,

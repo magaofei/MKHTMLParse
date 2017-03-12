@@ -10,6 +10,8 @@
 #import "MKHTMLParse.h"
 #import "MKNewsItem.h"
 
+#import "DetailViewController.h"
+
 @interface TableViewController ()
 
 @property (nonatomic, strong) NSMutableArray *items;
@@ -81,6 +83,18 @@ static NSString *ID = @"cell";
     
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    // 跳转
+    DetailViewController *detailVC = [[DetailViewController alloc] init];
+    MKNewsItem *item = self.items[indexPath.row];
+    detailVC.urlStr = item.urlStr;
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+    
+    
 }
 
 
