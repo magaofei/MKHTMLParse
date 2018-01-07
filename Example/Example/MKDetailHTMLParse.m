@@ -67,6 +67,7 @@
 //                NSString *src = [element objectForKey:@"src"];
                 // 遍历到所有的img标签
                 NSArray *n = [element searchWithXPathQuery:@"//img"];
+
                 if (n) {
                     for (TFHppleElement *eleme in n) {
                         NSDictionary *dict = [eleme attributes];
@@ -78,7 +79,6 @@
                 
                 
                 MKNewsItem *newsItem = [[MKNewsItem alloc] init];
-                
                 
                 
                 
